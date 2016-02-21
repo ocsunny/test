@@ -6,3 +6,8 @@ just try git init and git commit -m "description"
 
 git status and git diff FILE can help check file status
 
+git reset --hard head^ is to go back one rev
+git reset --hard commit_id is to go back the specified id
+git log --pretty=oneline and git reflog will show historic revs and related commit_id
+
+
